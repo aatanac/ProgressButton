@@ -1,0 +1,6 @@
+framework module Pods_ProgressButton_Example {
+  umbrella header "Pods-ProgressButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

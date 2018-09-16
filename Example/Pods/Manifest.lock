@@ -1,0 +1,16 @@
+PODS:
+  - ProgressButton (1.0.0)
+
+DEPENDENCIES:
+  - ProgressButton (from `../`)
+
+EXTERNAL SOURCES:
+  ProgressButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ProgressButton: 695ccca312aa2d0ce358a45d1fb60c5ba30da8bf
+
+PODFILE CHECKSUM: ea9b69bdde1e60414480f3e161f2c65b008c1154
+
+COCOAPODS: 1.5.3

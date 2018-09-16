@@ -1,0 +1,6 @@
+framework module ProgressButton {
+  umbrella header "ProgressButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

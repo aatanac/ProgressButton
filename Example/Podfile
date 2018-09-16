@@ -1,11 +1,14 @@
+platform :ios, '10.0'
 use_frameworks!
 
 target 'ProgressButton_Example' do
   pod 'ProgressButton', :path => '../'
-
-  target 'ProgressButton_Tests' do
-    inherit! :search_paths
-
-    
-  end
+end
+#fix for IBDesignable error
+#https://github.com/CocoaPods/CocoaPods/issues/7606#issuecomment-381279098
+post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+        config.build_settings.delete('CODE_SIGNING_ALLOWED')
+        config.build_settings.delete('CODE_SIGNING_REQUIRED')
+    end
 end
