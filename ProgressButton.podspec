@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
     s.platform     = :ios, "10.0"
     s.source       = { :git => "https://github.com/aatanac/ProgressButton.git", :tag => "1.0.0" }
     s.source_files  = "ProgressButton/**/*"
+    s.swift_version = "4.1"
     
 end
