@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ProgressButton_Example' do
+  pod 'ProgressButton', :path => '../'
+
+  target 'ProgressButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
